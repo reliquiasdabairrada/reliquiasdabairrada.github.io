@@ -2,7 +2,7 @@ const toggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.site-nav');
 
 // Altera este email para receber os pedidos enviados pelo formulario.
-const FORM_RECEIVER_EMAIL = 'teu-email@exemplo.com';
+const FORM_RECEIVER_EMAIL = 'reliquiasdabairrada@gmail.com';
 
 if (toggle && nav) {
   const navLinks = Array.from(nav.querySelectorAll('a'));
