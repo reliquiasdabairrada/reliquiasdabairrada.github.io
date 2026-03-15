@@ -1237,14 +1237,14 @@ div {
     color: #fff;
     box-shadow: var(--shadow);
 }
-body {
+/* body {
     margin: 0;
     font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
     background: var(--bg);
     color: var(--ink);
     line-height: 1.5;
-}
-:root {
+} */
+/* :root {
     --bg: #efe8dc;
     --bg-soft: #f5f0e6;
     --ink: #34261a;
@@ -1256,4 +1256,4 @@ body {
     --max: 1180px;
     --shadow: 0 14px 36px rgba(0, 0, 0, .14);
     --radius: 26px;
-}
+} */
