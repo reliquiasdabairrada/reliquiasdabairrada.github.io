@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Bicicleta">
+  <g fill="none" stroke="#5b3d22" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.6">
+    <circle cx="18" cy="45" r="10.5"/>
+    <circle cx="47" cy="45" r="10.5"/>
+    <path d="M18 45l10-16h8l7 16M25 34h13M15 22h10M33 22h7M34 22l-6 7"/>
+  </g>
+</svg>

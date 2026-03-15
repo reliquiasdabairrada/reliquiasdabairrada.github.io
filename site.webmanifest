@@ -1,15 +1,14 @@
 {
-  "name": "Relíquias da Bairrada",
-  "short_name": "Relíquias",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#f7f5ef",
-  "theme_color": "#1d4d43",
-  "icons": [
-    {
-      "src": "assets/img/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
-    }
-  ]
+    "name": "Relíquias da Bairrada",
+    "short_name": "Relíquias",
+    "icons": [
+        {
+            "src": "assets/img/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ],
+    "theme_color": "#efe8dc",
+    "background_color": "#efe8dc",
+    "display": "standalone"
 }

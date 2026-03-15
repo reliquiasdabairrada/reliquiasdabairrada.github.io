@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="pt-PT">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; font-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self' https://formsubmit.co; frame-ancestors 'none'; upgrade-insecure-requests" http-equiv="Content-Security-Policy"/>
+<meta content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self' https://formsubmit.co; font-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self' https://formsubmit.co; frame-ancestors 'none'; upgrade-insecure-requests" http-equiv="Content-Security-Policy"/>
 <meta content="strict-origin-when-cross-origin" name="referrer"/>
 <meta content="index,follow" name="robots"/>
 <title>Relíquias da Bairrada | Bicicletas</title>
@@ -12,7 +12,7 @@
 <meta content="website" property="og:type"/>
 <meta content="Relíquias da Bairrada | Bicicletas" property="og:title"/>
 <meta content="Relíquias da Bairrada, Desfile Histórico de Bicicletas Antigas da Bairrada." property="og:description"/>
-<meta content="https://static.wixstatic.com/media/8f1800_18befb3a3f0c47b189664840a6d8781a~mv2.png" property="og:image"/>
+<meta content="assets/img/remote/contexto/reliquias-da-bairrada-logo.png" property="og:image"/>
 <meta content="https://example.com/" property="og:url"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <link href="assets/img/favicon.svg" rel="icon" type="image/svg+xml"/>
@@ -25,18 +25,24 @@
 <div class="container header-inner">
 <a aria-label="Ir para a página inicial" class="brand brand-header" href="index.html">
 <img alt="Bicicleta Relíquias da Bairrada" height="56" src="assets/img/favicon.svg" width="56"/>
+<span class="brand-title">Relíquias da Bairrada</span>
 </a>
-<button aria-controls="menu" aria-expanded="false" class="menu-toggle" type="button">Menu</button>
+<button aria-controls="menu" aria-expanded="false" aria-label="Abrir menu" class="menu-toggle" type="button"><span></span></button>
 <nav aria-label="Navegação principal" class="site-nav" id="menu">
 <ul>
 <li><a href="index.html#topo">HOME</a></li>
 <li><a href="index.html#servicos">SERVIÇOS</a></li>
 <li><a href="index.html#trabalho">NOSSO TRABALHO</a></li>
 <li><a href="index.html#quemsomos">QUEM SOMOS</a></li>
-<li><a href="index.html#contato">CONTATO</a></li>
-<li><a href="portfolio.html">PORTFÓLIO</a></li>
+<li><a href="index.html#contacto">CONTACTO</a></li>
+<li><a href="paginas/portfolio.html">PORTFÓLIO</a></li>
 </ul>
-</nav>
+<div aria-label="Redes sociais" class="mobile-socials">
+<a aria-label="WhatsApp" class="whats-link" href="https://wa.me/351939322356" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 11.9c0 4.4-3.6 8-8 8-1.4 0-2.8-.4-4-1.1L4 20l1.3-3.8A7.9 7.9 0 0 1 4 11.9c0-4.4 3.6-8 8-8s8 3.6 8 8Zm-8-6.5c-3.6 0-6.5 2.9-6.5 6.5 0 1.2.3 2.4 1 3.4l.1.2-.8 2.2 2.3-.7.2.1c1 .6 2.1.9 3.2.9 3.6 0 6.5-2.9 6.5-6.5S15.6 5.4 12 5.4Zm3.8 8.3c-.2-.1-1.1-.5-1.3-.6-.2-.1-.3-.1-.5.1l-.4.6c-.1.2-.3.2-.5.1-1.1-.5-1.8-1-2.5-2-.2-.2 0-.4.1-.5l.4-.4c.1-.1.1-.2.2-.4 0-.1 0-.3 0-.4L11 8.5c-.1-.2-.3-.2-.4-.2h-.4c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.1 1.6 2.4 3.8 3.3.5.2 1 .4 1.4.5.6.2 1.2.2 1.6.1.5-.1 1.4-.6 1.6-1.2.2-.6.2-1 .1-1.1-.1-.1-.2-.1-.5-.3Z"></path></svg><span>WhatsApp</span></a>
+<a aria-label="Facebook" href="https://www.facebook.com/reliquiasdabairrada" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.5-3h-3.2V9.1c0-.9.3-1.6 1.7-1.6H17V4.8c-.4-.1-1.3-.2-2.4-.2-2.4 0-4 1.4-4 4.1V11H8v3h2.2v8h3.3Z"></path></svg><span>Facebook</span></a>
+<a aria-label="YouTube" href="https://www.youtube.com/@reliquiasdabairrada" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M23 12.2c0-2.1-.2-4.2-.5-5.2-.3-.9-1-1.6-1.9-1.9C19 4.6 12 4.6 12 4.6s-7 0-8.6.5c-.9.3-1.6 1-1.9 1.9C1.2 8 1 10.1 1 12.2s.2 4.2.5 5.2c.3.9 1 1.6 1.9 1.9 1.6.5 8.6.5 8.6.5s7 0 8.6-.5c.9-.3 1.6-1 1.9-1.9.3-1 .5-3.1.5-5.2ZM10 15.7V8.7l6 3.5-6 3.5Z"></path></svg><span>YouTube</span></a>
+<a aria-label="Instagram" href="https://www.instagram.com/reliquias.da.bairrada/" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 1.8A3.7 3.7 0 0 0 3.8 7.5v9a3.7 3.7 0 0 0 3.7 3.7h9a3.7 3.7 0 0 0 3.7-3.7v-9a3.7 3.7 0 0 0-3.7-3.7h-9Zm9.8 1.4a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.8A3.2 3.2 0 1 0 12 15a3.2 3.2 0 0 0 0-6.4Z"></path></svg><span>Instagram</span></a>
+</div></nav>
 </div>
 </header>
 <main id="conteudo">
@@ -44,12 +50,12 @@
 <div class="hero-backdrop"></div>
 <div class="container hero-content centered-stack">
 <p class="hero-kicker">Património, memória e cultura sobre rodas</p>
-<img alt="Relíquias da Bairrada" class="hero-logo hero-logo-proportional" src="https://static.wixstatic.com/media/8f1800_18befb3a3f0c47b189664840a6d8781a~mv2.png"/>
+<img alt="Relíquias da Bairrada" class="hero-logo hero-logo-proportional" src="assets/img/remote/contexto/reliquias-da-bairrada-logo.png"/>
 <p class="hero-tagline">Desfile Histórico de Bicicletas Antigas da Bairrada</p>
 <div aria-label="Redes sociais principais" class="social-row">
-<a aria-label="Facebook" href="https://www.facebook.com/reliquiasdabairrada" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M13.5 22v-8h2.7l.5-3h-3.2V9.1c0-.9.3-1.6 1.7-1.6H17V4.8c-.4-.1-1.3-.2-2.4-.2-2.4 0-4 1.4-4 4.1V11H8v3h2.2v8h3.3Z"></path></svg><span>Facebook</span></a>
-<a aria-label="YouTube" href="https://www.youtube.com/@reliquiasdabairrada" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M23 12.2c0-2.1-.2-4.2-.5-5.2-.3-.9-1-1.6-1.9-1.9C19 4.6 12 4.6 12 4.6s-7 0-8.6.5c-.9.3-1.6 1-1.9 1.9C1.2 8 1 10.1 1 12.2s.2 4.2.5 5.2c.3.9 1 1.6 1.9 1.9 1.6.5 8.6.5 8.6.5s7 0 8.6-.5c.9-.3 1.6-1 1.9-1.9.3-1 .5-3.1.5-5.2ZM10 15.7V8.7l6 3.5-6 3.5Z"></path></svg><span>YouTube</span></a>
-<a aria-label="Instagram" href="https://www.instagram.com/reliquias.da.bairrada/" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 1.8A3.7 3.7 0 0 0 3.8 7.5v9a3.7 3.7 0 0 0 3.7 3.7h9a3.7 3.7 0 0 0 3.7-3.7v-9a3.7 3.7 0 0 0-3.7-3.7h-9Zm9.8 1.4a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.8A3.2 3.2 0 1 0 12 15a3.2 3.2 0 0 0 0-6.4Z"></path></svg><span>Instagram</span></a>
+<a aria-label="Facebook" href="https://www.facebook.com/reliquiasdabairrada" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.5-3h-3.2V9.1c0-.9.3-1.6 1.7-1.6H17V4.8c-.4-.1-1.3-.2-2.4-.2-2.4 0-4 1.4-4 4.1V11H8v3h2.2v8h3.3Z"></path></svg><span>Facebook</span></a>
+<a aria-label="YouTube" href="https://www.youtube.com/@reliquiasdabairrada" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M23 12.2c0-2.1-.2-4.2-.5-5.2-.3-.9-1-1.6-1.9-1.9C19 4.6 12 4.6 12 4.6s-7 0-8.6.5c-.9.3-1.6 1-1.9 1.9C1.2 8 1 10.1 1 12.2s.2 4.2.5 5.2c.3.9 1 1.6 1.9 1.9 1.6.5 8.6.5 8.6.5s7 0 8.6-.5c.9-.3 1.6-1 1.9-1.9.3-1 .5-3.1.5-5.2ZM10 15.7V8.7l6 3.5-6 3.5Z"></path></svg><span>YouTube</span></a>
+<a aria-label="Instagram" href="https://www.instagram.com/reliquias.da.bairrada/" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 1.8A3.7 3.7 0 0 0 3.8 7.5v9a3.7 3.7 0 0 0 3.7 3.7h9a3.7 3.7 0 0 0 3.7-3.7v-9a3.7 3.7 0 0 0-3.7-3.7h-9Zm9.8 1.4a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.8A3.2 3.2 0 1 0 12 15a3.2 3.2 0 0 0 0-6.4Z"></path></svg><span>Instagram</span></a>
 </div>
 </div>
 </section>
@@ -60,39 +66,44 @@
 <div class="section-rule"></div>
 </div>
 <div class="container services-grid-wix">
-<article class="service-card-wix card-soft service-card-photo service-card-static" style="--service-bg:url('https://static.wixstatic.com/media/8f1800_66517997182f426e98f94221ace579c3~mv2.jpeg/v1/fill/w_1220,h_914,al_c/8f1800_66517997182f426e98f94221ace579c3~mv2.jpeg');">
+<article class="service-card-wix card-soft service-card-photo service-card-static">
+<img alt="" class="service-card-image" decoding="async" loading="lazy" src="assets/img/remote/contexto/bicicletas-com-historias.jpeg"/>
 <span class="service-card-overlay"></span>
 <div class="service-card-content">
-<div aria-hidden="true" class="service-icon"><svg viewbox="0 0 64 64"><circle cx="20" cy="45" r="10"></circle><circle cx="47" cy="45" r="10"></circle><path d="M20 45l12-20h8l7 20M26 34h14M18 19h10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"></path></svg></div>
-<h3>BICICLETAS COM HISTÓRIAS “PROFISSÕES DE ANTIGAMENTE”</h3>
-<p>Bicicletas com Histórias “profissões de antigamente” é uma exposição que nos faz recuar no tempo através de exemplares de profissões antigas que utilizaram bicicletas.</p>
+<div aria-hidden="true" class="service-icon"><svg viewBox="0 0 64 64"><circle cx="20" cy="45" r="10"></circle><circle cx="47" cy="45" r="10"></circle><path d="M20 45l12-20h8l7 20M26 34h14M18 19h10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"></path></svg></div>
+<h3>Bicicletas com Histórias “Profissões de Antigamente”</h3>
+<p>Bicicletas com Histórias “Profissões de Antigamente” é uma exposição que nos faz recuar no tempo através de exemplares de profissões antigas que utilizaram bicicletas.</p>
 </div>
-</article><article class="service-card-wix card-soft service-card-photo service-card-static" style="--service-bg:url('https://static.wixstatic.com/media/8f1800_7a26e333a66345c7ad849f4e0114c38d~mv2.jpg');">
+</article><article class="service-card-wix card-soft service-card-photo service-card-static">
+<img alt="" class="service-card-image" decoding="async" loading="lazy" src="assets/img/remote/contexto/old-portfolio-velocipedes-com-motor-auxiliar-03a45725.jpeg"/>
 <span class="service-card-overlay"></span>
 <div class="service-card-content">
-<div aria-hidden="true" class="service-icon"><svg viewbox="0 0 64 64"><path d="M14 38h36l4 7H10l4-7Zm8-13h18l6 13H16l6-13Zm7 0v-6h4v6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"></path></svg></div>
-<h3>VELOCÍPEDES COM MOTOR AUXILIAR</h3>
+<div aria-hidden="true" class="service-icon"><svg viewBox="0 0 64 64"><path d="M14 38h36l4 7H10l4-7Zm8-13h18l6 13H16l6-13Zm7 0v-6h4v6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"></path></svg></div>
+<h3>Velocípedes com Motor Auxiliar</h3>
 <p>É uma exposição que nos leva à introdução do motor em velocípedes, numa fase em que o barulho dos cascos dos cavalos nas ruas começou a ser substituído pelo roncar dos motores.</p>
 </div>
-</article><article class="service-card-wix card-soft service-card-photo service-card-static" style="--service-bg:url('https://static.wixstatic.com/media/8f1800_207d016056804d02826852f3791b75bd~mv2.jpeg/v1/fill/w_2048,h_1365,al_c/8f1800_207d016056804d02826852f3791b75bd~mv2.jpeg');">
+</article><article class="service-card-wix card-soft service-card-photo service-card-static">
+<img alt="" class="service-card-image" decoding="async" loading="lazy" src="assets/img/remote/contexto/home-reliquias-da-bairrada.jpg"/>
 <span class="service-card-overlay"></span>
 <div class="service-card-content">
-<div aria-hidden="true" class="service-icon"><svg viewbox="0 0 64 64"><path d="M32 9 14 17v13c0 11 7.8 20.7 18 24 10.2-3.3 18-13 18-24V17L32 9Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="3.5"></path><path d="M22 32h20M32 22v20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="3"></path></svg></div>
-<h3>AS BICICLETAS NA SEGUNDA GUERRA MUNDIAL</h3>
+<div aria-hidden="true" class="service-icon"><svg viewBox="0 0 64 64"><path d="M32 9 14 17v13c0 11 7.8 20.7 18 24 10.2-3.3 18-13 18-24V17L32 9Z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="3.5"></path><path d="M22 32h20M32 22v20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="3"></path></svg></div>
+<h3>As Bicicletas na Segunda Guerra Mundial</h3>
 <p>É uma exposição que nos faz recuar no tempo da Segunda Guerra Mundial, onde percebemos a importância da bicicleta como meio de transporte.</p>
 </div>
-</article><article class="service-card-wix card-soft service-card-photo service-card-static" style="--service-bg:url('https://static.wixstatic.com/media/8f1800_c40718381df6413c84b1a00bc0151f66~mv2.jpeg/v1/fill/w_1220,h_797,al_c/8f1800_c40718381df6413c84b1a00bc0151f66~mv2.jpeg');">
+</article><article class="service-card-wix card-soft service-card-photo service-card-static">
+<img alt="" class="service-card-image" decoding="async" loading="lazy" src="assets/img/remote/contexto/figuracao-figuracao-reliquias-da-bairrada.jpeg"/>
 <span class="service-card-overlay"></span>
 <div class="service-card-content">
-<div aria-hidden="true" class="service-icon"><svg viewbox="0 0 64 64"><path d="M20 52V18l12-6 12 6v34M20 28h24M32 12v40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"></path></svg></div>
-<h3>FIGURAÇÃO</h3>
+<div aria-hidden="true" class="service-icon"><svg viewBox="0 0 64 64"><path d="M20 52V18l12-6 12 6v34M20 28h24M32 12v40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"></path></svg></div>
+<h3>Figuração</h3>
 <p>É uma representação onde, através de trajes de época juntamente com a bicicleta, revivemos as memórias do passado.</p>
 </div>
-</article><article class="service-card-wix card-soft service-card-photo service-card-wide service-card-static" style="--service-bg:url('https://static.wixstatic.com/media/8f1800_34b4316d056744178a1f7f7af6e7c67a~mv2.jpeg/v1/fill/w_1599,h_899,al_c/8f1800_34b4316d056744178a1f7f7af6e7c67a~mv2.jpeg');">
+</article><article class="service-card-wix card-soft service-card-photo service-card-wide service-card-static">
+<img alt="" class="service-card-image" decoding="async" loading="lazy" src="assets/img/remote/contexto/documentario.jpeg"/>
 <span class="service-card-overlay"></span>
 <div class="service-card-content">
-<div aria-hidden="true" class="service-icon"><svg viewbox="0 0 64 64"><rect fill="none" height="36" rx="4" stroke="currentColor" stroke-width="3.5" width="44" x="10" y="14"></rect><path d="m27 25 14 7-14 7v-14Z"></path></svg></div>
-<h3>DOCUMENTÁRIO “USOS E COSTUMES DA BICICLETA ANTIGA”</h3>
+<div aria-hidden="true" class="service-icon"><svg viewBox="0 0 64 64"><rect fill="none" height="36" rx="4" stroke="currentColor" stroke-width="3.5" width="44" x="10" y="14"></rect><path d="m27 25 14 7-14 7v-14Z"></path></svg></div>
+<h3>Documentário “Usos e Costumes da Bicicleta Antiga”</h3>
 <p>É um documentário com a duração de 1h10m que retrata a ligação entre o homem, a mulher e a bicicleta antiga.</p>
 </div>
 </article>
@@ -106,45 +117,47 @@
 <p class="section-subtitle">Cada imagem abre uma página individual, com mais contexto e galeria própria, à semelhança do site original.</p>
 </div>
 <div class="container gallery-grid-wix">
-<a class="gallery-tile" href="desfile-historico.html">
-<img alt="Desfile Histórico de Bicicletas Antigas da Bairrada" src="https://static.wixstatic.com/media/8f1800_53bc4c79db51448eba81d1716016c9e0~mv2.jpg"/>
+<a class="gallery-tile" href="paginas/desfile-historico.html">
+<img alt="Desfile Histórico de Bicicletas Antigas da Bairrada" src="assets/img/remote/contexto/home-desfile-historico-de-bicicletas-antigas-da-bairrada.jpg"/>
 <span>Desfile Histórico de Bicicletas Antigas da Bairrada</span>
-</a><a class="gallery-tile" href="bicicletas-segunda-guerra.html">
-<img alt="As Bicicletas na Segunda Guerra Mundial" src="https://static.wixstatic.com/media/8f1800_54f99e44feb1479489a4969a8c985ab1~mv2.jpg"/>
+</a><a class="gallery-tile" href="paginas/bicicletas-segunda-guerra.html">
+<img alt="As Bicicletas na Segunda Guerra Mundial" src="assets/img/remote/contexto/home-as-bicicletas-na-segunda-guerra-mundial.jpg"/>
 <span>As Bicicletas na Segunda Guerra Mundial</span>
-</a><a class="gallery-tile" href="velocipedes-motor-auxiliar.html">
-<img alt="Velocípedes com Motor Auxiliar" src="https://static.wixstatic.com/media/8f1800_7a26e333a66345c7ad849f4e0114c38d~mv2.jpg"/>
+</a><a class="gallery-tile" href="paginas/velocipedes-motor-auxiliar.html">
+<img alt="Velocípedes com Motor Auxiliar" src="assets/img/remote/contexto/velocipedes-com-motor-auxiliar.jpg"/>
 <span>Velocípedes com Motor Auxiliar</span>
-</a><a class="gallery-tile" href="figuracao.html">
-<img alt="Figuração" src="https://static.wixstatic.com/media/8f1800_7b6cda722af1450fbc878e1108d168ac~mv2.jpg"/>
+</a><a class="gallery-tile" href="paginas/figuracao.html">
+<img alt="Figuração" src="assets/img/remote/contexto/home-figuracao.jpg"/>
 <span>Figuração</span>
-</a><a class="gallery-tile" href="documentario.html">
-<img alt="Documentário “Usos e Costumes da Bicicleta Antiga”" src="https://static.wixstatic.com/media/8f1800_d46fd77d64a14cb685653ea4329cc71e~mv2.jpg"/>
+</a><a class="gallery-tile" href="paginas/documentario.html">
+<img alt="Documentário “Usos e Costumes da Bicicleta Antiga”" src="assets/img/remote/contexto/home-documentario-usos-e-costumes-da-bicicleta-antiga.jpg"/>
 <span>Documentário “Usos e Costumes da Bicicleta Antiga”</span>
-</a><a class="gallery-tile" href="bicicletas-com-historias.html">
-<img alt="Bicicletas com Histórias “profissões de antigamente”" src="https://static.wixstatic.com/media/8f1800_b6eb3453dfd84a498b171f9eb0400a0b~mv2.png"/>
-<span>Bicicletas com Histórias “profissões de antigamente”</span>
+</a><a class="gallery-tile" href="paginas/bicicletas-com-historias.html">
+<img alt="Bicicletas com Histórias “Profissões de Antigamente”" src="assets/img/remote/contexto/bicicletas-com-historias-profissoes-de-antigamente.png"/>
+<span>Bicicletas com Histórias “Profissões de Antigamente”</span>
 </a>
 </div>
 </section>
-<section class="section section-photo" id="quemsomos" style="--section-image:url('https://static.wixstatic.com/media/1e47b2_0d6c77b5ffd04c0e92f186a8193c3e3c.jpg');">
+<section class="section section-photo" id="quemsomos">
+<img alt="" aria-hidden="true" class="section-photo-image" decoding="async" loading="lazy" src="assets/img/remote/contexto/quem-somos-reliquias-da-bairrada.jpg"/>
 <div class="section-photo-overlay"></div>
 <div class="container photo-panel-wrap">
 <article class="photo-panel card-overlay">
 <p class="anchor-label anchor-light">Quem Somos</p>
 <h2>QUEM SOMOS</h2>
 <div class="section-rule light"></div>
-<p>Relíquias da Bairrada é um grupo de amigos que tem gosto pelo colecionismo na vertente do mundo das duas rodas (com ou sem motor) e até quatro rodas (o automóvel antigo). Buscamos compartilhar a nossa paixão por exposições temáticas e design cenográfico, criando ambientes que contam histórias e emocionam.</p>
+<p>Relíquias da Bairrada é um grupo de amigos com gosto pelo colecionismo na vertente do mundo das duas rodas, com ou sem motor, e também pelo automóvel antigo. Partilhamos essa paixão através de exposições temáticas e design cenográfico que contam histórias e despertam emoções.</p>
 </article>
 </div>
 </section>
-<section class="section section-photo contato-shell" id="contato" style="--section-image:url('https://static.wixstatic.com/media/8f1800_9c76069f3469425684f40ca90743ec34~mv2.jpeg');">
+<section class="section section-photo contacto-shell" id="contacto">
+<img alt="" aria-hidden="true" class="section-photo-image" decoding="async" loading="lazy" src="assets/img/remote/contexto/bicicletas-com-historias-bicicletas-com-historias-profissoes-de-antigame-0c642155.jpeg"/>
 <div class="section-photo-overlay overlay-soft"></div>
 <div class="container contact-layout-wix">
 <div class="contact-card-wix card-overlay light-surface contact-card-compact">
-<img alt="Relíquias da Bairrada" class="contact-logo" height="92" src="https://static.wixstatic.com/media/8f1800_18befb3a3f0c47b189664840a6d8781a~mv2.png" width="92"/>
-<p class="anchor-label">Contato</p>
-<h2>ENTRE EM CONTATO</h2>
+<img alt="Relíquias da Bairrada" class="contact-logo" height="92" src="assets/img/remote/contexto/reliquias-da-bairrada-logo.png" width="92"/>
+<p class="anchor-label">Contacto</p>
+<h2>ENTRE EM CONTACTO</h2>
 <div class="section-rule"></div>
 <div class="contact-copy">
 <p>Vítor Ferreira</p>
@@ -162,7 +175,7 @@
 <input autocomplete="given-name" id="nome" maxlength="80" name="nome" required="" type="text"/>
 </div>
 <div class="form-row">
-<label for="apelido">Sobrenome</label>
+<label for="apelido">Apelido</label>
 <input autocomplete="family-name" id="apelido" maxlength="80" name="apelido" type="text"/>
 </div>
 </div>
@@ -187,29 +200,40 @@
 <button class="button-send" type="submit">Enviar</button>
 <p aria-live="polite" class="form-status" id="form-status"></p>
 </form>
-<div class="contact-links-inline">
-<a class="whats-link" href="https://wa.me/351939322356" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M20 11.9c0 4.4-3.6 8-8 8-1.4 0-2.8-.4-4-1.1L4 20l1.3-3.8A7.9 7.9 0 0 1 4 11.9c0-4.4 3.6-8 8-8s8 3.6 8 8Zm-8-6.5c-3.6 0-6.5 2.9-6.5 6.5 0 1.2.3 2.4 1 3.4l.1.2-.8 2.2 2.3-.7.2.1c1 .6 2.1.9 3.2.9 3.6 0 6.5-2.9 6.5-6.5S15.6 5.4 12 5.4Zm3.8 8.3c-.2-.1-1.1-.5-1.3-.6-.2-.1-.3-.1-.5.1l-.4.6c-.1.2-.3.2-.5.1-1.1-.5-1.8-1-2.5-2-.2-.2 0-.4.1-.5l.4-.4c.1-.1.1-.2.2-.4 0-.1 0-.3 0-.4L11 8.5c-.1-.2-.3-.2-.4-.2h-.4c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.1 1.6 2.4 3.8 3.3.5.2 1 .4 1.4.5.6.2 1.2.2 1.6.1.5-.1 1.4-.6 1.6-1.2.2-.6.2-1 .1-1.1-.1-.1-.2-.1-.5-.3Z"></path></svg><span>WhatsApp</span></a>
-<a aria-label="Instagram" href="https://www.instagram.com/reliquias.da.bairrada/" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 1.8A3.7 3.7 0 0 0 3.8 7.5v9a3.7 3.7 0 0 0 3.7 3.7h9a3.7 3.7 0 0 0 3.7-3.7v-9a3.7 3.7 0 0 0-3.7-3.7h-9Zm9.8 1.4a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.8A3.2 3.2 0 1 0 12 15a3.2 3.2 0 0 0 0-6.4Z"></path></svg><span>Instagram</span></a>
-</div>
 </div>
 </div>
 </section>
 </main>
 <footer class="site-footer footer-wix">
 <div class="container footer-inner-wix">
-<p>© 2025 Relíquias da Bairrada</p>
+<div class="footer-brand-block">
+<strong>© 2026 Relíquias da Bairrada</strong>
+<p>Património, memória e cultura sobre rodas.</p>
+</div>
+<p> </p>
 <div class="footer-links-wix">
 <a href="index.html#topo">HOME</a>
-<a href="portfolio.html">PORTFÓLIO</a>
-<a href="index.html#contato">CONTATO</a>
+<a href="paginas/portfolio.html">PORTFÓLIO</a>
+<a href="index.html#contacto">CONTACTO</a>
 </div>
 <div aria-label="Redes sociais" class="footer-socials">
-<a aria-label="Facebook" href="https://www.facebook.com/reliquiasdabairrada" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M13.5 22v-8h2.7l.5-3h-3.2V9.1c0-.9.3-1.6 1.7-1.6H17V4.8c-.4-.1-1.3-.2-2.4-.2-2.4 0-4 1.4-4 4.1V11H8v3h2.2v8h3.3Z"></path></svg></a>
-<a aria-label="YouTube" href="https://www.youtube.com/@reliquiasdabairrada" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M23 12.2c0-2.1-.2-4.2-.5-5.2-.3-.9-1-1.6-1.9-1.9C19 4.6 12 4.6 12 4.6s-7 0-8.6.5c-.9.3-1.6 1-1.9 1.9C1.2 8 1 10.1 1 12.2s.2 4.2.5 5.2c.3.9 1 1.6 1.9 1.9 1.6.5 8.6.5 8.6.5s7 0 8.6-.5c.9-.3 1.6-1 1.9-1.9.3-1 .5-3.1.5-5.2ZM10 15.7V8.7l6 3.5-6 3.5Z"></path></svg></a>
-<a aria-label="Instagram" href="https://www.instagram.com/reliquias.da.bairrada/" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 1.8A3.7 3.7 0 0 0 3.8 7.5v9a3.7 3.7 0 0 0 3.7 3.7h9a3.7 3.7 0 0 0 3.7-3.7v-9a3.7 3.7 0 0 0-3.7-3.7h-9Zm9.8 1.4a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.8A3.2 3.2 0 1 0 12 15a3.2 3.2 0 0 0 0-6.4Z"></path></svg></a>
+<a aria-label="Facebook" href="https://www.facebook.com/reliquiasdabairrada" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.5-3h-3.2V9.1c0-.9.3-1.6 1.7-1.6H17V4.8c-.4-.1-1.3-.2-2.4-.2-2.4 0-4 1.4-4 4.1V11H8v3h2.2v8h3.3Z"></path></svg></a>
+<a aria-label="YouTube" href="https://www.youtube.com/@reliquiasdabairrada" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M23 12.2c0-2.1-.2-4.2-.5-5.2-.3-.9-1-1.6-1.9-1.9C19 4.6 12 4.6 12 4.6s-7 0-8.6.5c-.9.3-1.6 1-1.9 1.9C1.2 8 1 10.1 1 12.2s.2 4.2.5 5.2c.3.9 1 1.6 1.9 1.9 1.6.5 8.6.5 8.6.5s7 0 8.6-.5c.9-.3 1.6-1 1.9-1.9.3-1 .5-3.1.5-5.2ZM10 15.7V8.7l6 3.5-6 3.5Z"></path></svg></a>
+<a aria-label="Instagram" href="https://www.instagram.com/reliquias.da.bairrada/" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 1.8A3.7 3.7 0 0 0 3.8 7.5v9a3.7 3.7 0 0 0 3.7 3.7h9a3.7 3.7 0 0 0 3.7-3.7v-9a3.7 3.7 0 0 0-3.7-3.7h-9Zm9.8 1.4a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.8A3.2 3.2 0 1 0 12 15a3.2 3.2 0 0 0 0-6.4Z"></path></svg></a>
 </div>
 </div>
 </footer>
 <script src="assets/js/site.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
